@@ -63,7 +63,7 @@ output "ipaddress" {
 
  resource "aws_s3_object" "ojects3" {
     bucket = aws_s3_bucket.s3block.bucket 
-    source = "index.html"
-    key = "index.html"
+    source = ""
+    key = ""
  }
  
